@@ -1,0 +1,118 @@
+/*Universal Styles*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: helvetica;
+  color: black;
+  line-height: 1.2;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 2.0rem;
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.mobile {
+  display: none;
+}
+
+/*Header & Navigation*/
+
+header {
+  width: 100%;
+  background-color: white;
+}
+
+.navigation {
+  height: 4rem;
+  padding: 0 1.5rem;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.logo img {
+  width: 3rem;
+}
+
+.logo span {
+  font-weight: bold;
+}
+
+.logo a {
+
+}
+
+.navbar a {
+  padding-left: 1rem;
+  justify-content: space-between;
+  transition: color 100ms linear 0s;
+}
+
+.navbar a:hover {
+  color: gray;
+}
+
+/*Learn Section*/
+
+.learn {
+  padding: 0 1.5rem;
+  background-color: lightgray;
+}
+
+.banner {
+  max-width: 60%;
+  padding: 2rem 2.5rem 2rem 0;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.start {
+  width: 30%;
+  height: auto;
+}
+
+.start h3 {
+  margin: 2rem 0;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: gray;
+  transition: background-color 250ms linear 0s;
+}
+
+button:hover {
+  background-color: green;
+}
